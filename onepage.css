@@ -1,0 +1,122 @@
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: hsl(210, 10%, 33%);
+}
+h1, h5{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+}
+p{
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+}
+
+.ppp{
+    margin: 30px 200px 40px 200px;
+}
+.btn-primary{
+    background-color:hsl(171, 66%, 44%);
+    box-shadow: 1px 3px 3px hsl(171, 76%, 27%);
+    border-radius: 50rem !important;
+    border-color: hsl(171, 66%, 44%);
+}
+.btn-primary:hover{
+    background-color: #5dccbb;
+    border-color: #5dccbb;
+}
+
+.btn-primary-2{
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    box-shadow: 1px 3px 3px hsl(233, 53%, 42%);
+    border-radius: 50rem !important;
+    border-color: hsl(233, 100%, 69%);
+}
+
+.btn-primary-2:hover{
+    background-color: #8896ff;
+    color: white;
+    border-color: #8896ff;
+    
+    }
+
+.top{
+   padding: 5rem 0;
+   text-align: center;
+   margin: 0 auto;
+}
+.top-1{
+    
+    text-align: center;
+    margin: 0 auto;
+ }
+.list{
+    padding-left: 60px;
+    text-align: left;
+}
+.mountin{
+    background-image: url("images/bg-header-desktop.png");
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.compu-1 {
+    /* height: 450px !important; */
+    margin-left: -40%;
+    background-image: url("images/image-computer.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: contain;
+    
+}
+
+footer{
+    background-color: rgb(240, 247, 255);
+}
+.hovercolor a:hover{
+    color: #5dccbb;
+}
+
+a .socialmedia:hover{
+    opacity: 0.7;
+    color: #5dccbb;
+    background-image: url("images/icon-twitter-h.svg");
+    
+}
+
+@media(max-width:500px){
+    .mountin{
+       background-color: url("images/bg-header-mobile.png");
+    }
+    .ppp{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .list{
+        padding-left: 0;
+        text-align: center;
+    }
+   .img-2{
+        width: 100% !important;
+    }
+   .compu-1 {
+    margin-left: 0;
+    width: 100%;
+    padding-right: 0;
+    }
+
+    .logos{
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+  
+   footer{
+    text-align: center;
+    }
+ 
+}
